@@ -1,3 +1,4 @@
+import { footer } from "../footer";
 import { initialPage } from "../initial";
 
 //       <div class="main">
@@ -30,6 +31,8 @@ function home() {
   mainContent.append(mainText, mainSubtext);
 
   content.append(main);
+
+  footer();
 
 }
 
