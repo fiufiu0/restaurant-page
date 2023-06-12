@@ -1,6 +1,8 @@
-
-
+import { home } from "./tabs/home";
+import { initialPage } from "./initial";
 console.log("test");
+
+home();
 
 // <div id="content">
 //       <div class="header">
