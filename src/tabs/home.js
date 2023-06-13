@@ -11,29 +11,28 @@ import { initialPage } from "../initial";
 function home() {
   initialPage();
 
-  console.log("home")
+  console.log("home");
   const content = document.getElementById("content");
 
-  const main = document.createElement('div');
-  const mainContent = document.createElement('div');
-  const mainText = document.createElement('p');
-  const mainSubtext = document.createElement('p');
+  const main = document.createElement("div");
+  const mainContent = document.createElement("div");
+  const mainText = document.createElement("p");
+  const mainSubtext = document.createElement("p");
 
-  main.classList.add('main');
-  mainContent.classList.add('main-info');
+  main.classList.add("main");
+  mainContent.classList.add("main-info");
 
-  mainText.classList.add('mainText');
-  mainSubtext.classList.add('mainSubtext');
-  mainText.textContent = "Welcome to restaurant"
-  mainSubtext.textContent = "Some information about restaurant"
+  mainText.classList.add("mainText");
+  mainSubtext.classList.add("mainSubtext");
+  mainText.textContent = "Welcome to restaurant";
+  mainSubtext.textContent = "Some information about restaurant";
 
-  main.appendChild(mainContent)
+  main.appendChild(mainContent);
   mainContent.append(mainText, mainSubtext);
 
   content.append(main);
 
   footer();
-
 }
 
 export { home };

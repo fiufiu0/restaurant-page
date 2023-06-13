@@ -26,7 +26,7 @@ function initialPage() {
 
   const name = document.createElement("p");
   name.classList.add("name");
-  name.textContent = "Restaurant";
+  name.textContent = "Lemon Smoothie";
 
   const links = document.createElement("ul");
   links.classList.add("links");
