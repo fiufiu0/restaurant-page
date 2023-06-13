@@ -35,3 +35,17 @@
     cursor: pointer;
 }
 
+
+/* FOOTER */
+
+.footer {
+    padding: 0.9rem 0;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.footer-text {
+    font-family: "Roboto Mono", -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
