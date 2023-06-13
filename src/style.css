@@ -1,0 +1,26 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+}
+
+.links li {
+    padding: 0 0.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+

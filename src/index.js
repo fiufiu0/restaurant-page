@@ -1,5 +1,5 @@
 import { home } from "./tabs/home";
-import { initialPage } from "./initial";
+import './style.css';
 console.log("test");
 
 home();
