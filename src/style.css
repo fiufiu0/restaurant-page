@@ -7,6 +7,12 @@
     padding: 0;
 }
 
+#content {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
 /* HEADER */
 
 .header {
@@ -48,4 +54,21 @@
     font-family: "Roboto Mono", -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-weight: 300;
     font-size: 0.9rem;
+}
+
+/* MAIN */
+
+.main {
+    background-image: url(./lemons.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.main-info {
+    background-color: #f7f7f7;
 }
