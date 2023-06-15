@@ -24,8 +24,8 @@ function home() {
 
   mainText.classList.add("mainText");
   mainSubtext.classList.add("mainSubtext");
-  mainText.textContent = "Welcome to restaurant";
-  mainSubtext.textContent = "Some information about restaurant";
+  mainText.textContent = "Welcome to Lemon Smoothie!";
+  mainSubtext.textContent = "All natural, all healthy. Our smoothies are made with the highest quality fresh fruits. Start your day with the energy to conquer it.";
 
   main.appendChild(mainContent);
   mainContent.append(mainText, mainSubtext);
