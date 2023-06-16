@@ -1,5 +1,5 @@
 import { home } from "./tabs/home";
-import './style.css';
+import "./style.css";
 console.log("test");
 
 home();
