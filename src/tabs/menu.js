@@ -65,10 +65,56 @@ function menu() {
   smoothieOnePrice.classList.add("smoothieOnePrice");
   smoothieOnePrice.textContent = "$4.99";
 
+
+  const smoothieTwo = document.createElement("div");
+  smoothieTwo.classList.add("smoothieTwo");
+
+  const smoothieTwoText = document.createElement("div");
+  smoothieTwoText.classList.add("smoothieTwoText");
+
+  const smoothieTwoName = document.createElement("p");
+  smoothieTwoName.classList.add("smoothieTwoName");
+  smoothieTwoName.textContent = "Lemon Smoothie2";
+
+  const smoothieTwoDesc = document.createElement("p");
+  smoothieTwoDesc.classList.add("smoothieTwoDesc");
+  smoothieTwoDesc.textContent = "Lemoon smoothie very feshy!2";
+
+  const smoothieTwoPrice = document.createElement("p");
+  smoothieTwoPrice.classList.add("smoothieTwoPrice");
+  smoothieTwoPrice.textContent = "$4.99";
+
+
+  const smoothieThree = document.createElement("div");
+  smoothieThree.classList.add("smoothieThree");
+
+  const smoothieThreeText = document.createElement("div");
+  smoothieThreeText.classList.add("smoothieThreeText");
+
+  const smoothieThreeName = document.createElement("p");
+  smoothieThreeName.classList.add("smoothieThreeName");
+  smoothieThreeName.textContent = "Lemon Smoothie3";
+
+  const smoothieThreeDesc = document.createElement("p");
+  smoothieThreeDesc.classList.add("smoothieThreeDesc");
+  smoothieThreeDesc.textContent = "Lemoon smoothie very feshy!3";
+
+  const smoothieThreePrice = document.createElement("p");
+  smoothieThreePrice.classList.add("smoothieThreePrice");
+  smoothieThreePrice.textContent = "$4.99";
+
+
+
   smoothieOneText.append(smoothieOneName, smoothieOneDesc, smoothieOnePrice);
   smoothieOne.appendChild(smoothieOneText);
 
-  menuContent.appendChild(smoothieOne);
+  smoothieTwoText.append(smoothieTwoName, smoothieTwoDesc, smoothieTwoPrice);
+  smoothieTwo.appendChild(smoothieTwoText);
+
+  smoothieThreeText.append(smoothieThreeName, smoothieThreeDesc, smoothieThreePrice);
+  smoothieThree.appendChild(smoothieThreeText);
+
+  menuContent.append(smoothieOne, smoothieTwo, smoothieThree);
 
   content.append(menuContent);
 
