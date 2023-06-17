@@ -88,3 +88,33 @@
     font-weight: 300;
     font-size: 0.9rem;
 }
+
+/* MENU */
+
+.menu-content {
+    background-image: url(./lemonsMenu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.smoothieOne, .smoothieTwo, .smoothieThree {
+    background-color: rgba(247, 247, 247, 0.8);
+    padding: 1.5rem 6rem;
+    font-family: "Roboto";
+}
+
+.smoothieOneName, .smoothieTwoName, .smoothieThreeName {
+    font-weight: 500;
+}
+
+.smoothieOnePrice, .smoothieTwoPrice, .smoothieThreePrice {
+    font-family: "Roboto Mono";
+    font-size: 0.9rem;
+    font-weight: 300;
+}
