@@ -1,8 +1,10 @@
 import { home } from "./tabs/home";
 import "./style.css";
+import { menu } from "./tabs/menu";
 console.log("test");
 
-home();
+// home();
+menu();
 
 // <div id="content">
 //       <div class="header">
