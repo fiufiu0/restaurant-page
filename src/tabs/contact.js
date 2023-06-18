@@ -14,6 +14,10 @@ function contact() {
   const weekdays = document.createElement("p");
   const weekend = document.createElement("p");
 
+  contact.classList.add("contact");
+  contactInfo.classList.add("contactInfo");
+  contactHours.classList.add("contactHours");
+
   email.textContent = "lemon@smoothie.com";
   adress.textContent = "62 Madison Ave, New York, NY 10016";
   phone.textContent = "+1 234-456-7890";
