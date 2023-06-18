@@ -1,10 +1,30 @@
 import { home } from "./tabs/home";
-import "./style.css";
 import { menu } from "./tabs/menu";
 import { contact } from "./tabs/contact";
-console.log("test");
+import "./style.css";
 
-// home();
+home();
 // menu();
-contact();
+// contact();
+
+const homeTab = document.getElementById("home")
+const menuTab = document.getElementById("menu");
+const contactTab = document.getElementById("contact");
+const content = document.getElementById("content")
+
+
+
+homeTab.addEventListener("click", () => {
+    console.log("home tab");
+});
+
+menuTab.addEventListener("click", () => {
+    console.log("menu tab");
+    menu();
+
+});
+
+contactTab.addEventListener("click", () => {
+    console.log("contact tab");
+});
 

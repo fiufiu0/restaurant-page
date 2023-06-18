@@ -15,6 +15,9 @@ function initialPage() {
   const home = document.createElement("li");
   const menu = document.createElement("li");
   const contact = document.createElement("li");
+  home.setAttribute("id", "home");
+  menu.setAttribute("id", "menu");
+  contact.setAttribute("id", "contact");
 
   home.textContent = "home";
   menu.textContent = "menu";

@@ -1,17 +1,9 @@
 import { footer } from "../footer";
 import { initialPage } from "../initial";
 
-//       <div class="main">
-//         <div class="main-info">
-//           <p>Welcome to Restaurant Name</p>
-//           <p>Some dumb text</p>
-//         </div>
-//       </div>
-
 function home() {
   initialPage();
 
-  console.log("home");
   const content = document.getElementById("content");
 
   const main = document.createElement("div");
