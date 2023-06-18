@@ -122,3 +122,26 @@
     font-weight: 300;
     padding-top: 0.5rem;
 }
+
+/* CONTACT */
+
+.contact {
+    background-image: url(./contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contactInfo, .contactHours {
+    background-color: rgba(247, 247, 247, 0.8);
+    width: 40%;
+    text-align: center;
+    font-family: "Roboto Mono";
+    font-weight: 300;
+    padding: 2rem 2rem;
+}
