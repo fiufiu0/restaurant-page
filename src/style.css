@@ -105,16 +105,20 @@
 
 .smoothieOne, .smoothieTwo, .smoothieThree {
     background-color: rgba(247, 247, 247, 0.8);
-    padding: 1.5rem 6rem;
+    padding: 1.5rem 4rem;
+    width: 50%;
     font-family: "Roboto";
+    text-align: center;
 }
 
 .smoothieOneName, .smoothieTwoName, .smoothieThreeName {
     font-weight: 500;
+    padding-bottom: 0.3rem;
 }
 
 .smoothieOnePrice, .smoothieTwoPrice, .smoothieThreePrice {
     font-family: "Roboto Mono";
     font-size: 0.9rem;
     font-weight: 300;
+    padding-top: 0.5rem;
 }

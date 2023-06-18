@@ -55,15 +55,15 @@ function menu() {
 
   const smoothieOneName = document.createElement("p");
   smoothieOneName.classList.add("smoothieOneName");
-  smoothieOneName.textContent = "Lemon Smoothie";
+  smoothieOneName.textContent = "Protein Smoothie";
 
   const smoothieOneDesc = document.createElement("p");
   smoothieOneDesc.classList.add("smoothieOneDesc");
-  smoothieOneDesc.textContent = "Lemoon smoothie very feshy!";
+  smoothieOneDesc.textContent = "Banana, strawberry, protein powder and almond milk blended with ice.";
 
   const smoothieOnePrice = document.createElement("p");
   smoothieOnePrice.classList.add("smoothieOnePrice");
-  smoothieOnePrice.textContent = "$4.99";
+  smoothieOnePrice.textContent = "$6.99";
 
 
   const smoothieTwo = document.createElement("div");
@@ -74,15 +74,15 @@ function menu() {
 
   const smoothieTwoName = document.createElement("p");
   smoothieTwoName.classList.add("smoothieTwoName");
-  smoothieTwoName.textContent = "Lemon Smoothie2";
+  smoothieTwoName.textContent = "Green Smoothie";
 
   const smoothieTwoDesc = document.createElement("p");
   smoothieTwoDesc.classList.add("smoothieTwoDesc");
-  smoothieTwoDesc.textContent = "Lemoon smoothie very feshy!2";
+  smoothieTwoDesc.textContent = "Kale, spinach, banana, mango and pineapple blended with ice.";
 
   const smoothieTwoPrice = document.createElement("p");
   smoothieTwoPrice.classList.add("smoothieTwoPrice");
-  smoothieTwoPrice.textContent = "$4.99";
+  smoothieTwoPrice.textContent = "$8.99";
 
 
   const smoothieThree = document.createElement("div");
@@ -93,11 +93,11 @@ function menu() {
 
   const smoothieThreeName = document.createElement("p");
   smoothieThreeName.classList.add("smoothieThreeName");
-  smoothieThreeName.textContent = "Lemon Smoothie3";
+  smoothieThreeName.textContent = "Almond Smoothie";
 
   const smoothieThreeDesc = document.createElement("p");
   smoothieThreeDesc.classList.add("smoothieThreeDesc");
-  smoothieThreeDesc.textContent = "Lemoon smoothie very feshy!3";
+  smoothieThreeDesc.textContent = "Almond butter blended with Banana Strawberry and almond milk blended with ice.";
 
   const smoothieThreePrice = document.createElement("p");
   smoothieThreePrice.classList.add("smoothieThreePrice");
