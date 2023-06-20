@@ -1,6 +1,12 @@
+import { changeTab } from ".";
 
 function initialPage() {
+  
   const content = document.getElementById("content");
+
+  while (content.firstChild) {
+    content.removeChild(content.firstChild);
+  }
 
   const header = document.createElement("div");
   header.classList.add("header");
@@ -29,6 +35,8 @@ function initialPage() {
   links.append(home, menu, contact);
 
   content.appendChild(header);
+
+  changeTab();
 }
 
 export { initialPage };

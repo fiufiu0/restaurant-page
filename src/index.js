@@ -7,24 +7,25 @@ home();
 // menu();
 // contact();
 
-const homeTab = document.getElementById("home")
-const menuTab = document.getElementById("menu");
-const contactTab = document.getElementById("contact");
-const content = document.getElementById("content")
+function changeTab() {
+  const homeTab = document.getElementById("home");
+  const menuTab = document.getElementById("menu");
+  const contactTab = document.getElementById("contact");
 
-
-
-homeTab.addEventListener("click", () => {
+  homeTab.addEventListener("click", () => {
     console.log("home tab");
-});
+    home();
+  });
 
-menuTab.addEventListener("click", () => {
+  menuTab.addEventListener("click", () => {
     console.log("menu tab");
     menu();
+  });
 
-});
-
-contactTab.addEventListener("click", () => {
+  contactTab.addEventListener("click", () => {
     console.log("contact tab");
-});
+    contact();
+  });
+}
 
+export { changeTab };
